@@ -1,0 +1,9 @@
+{
+  "name": "ds",
+  "version": "0.1.0",
+  "description": "Design Studio — Turns project descriptions into professionally designed web pages using your personal design philosophy, curated theme packages, and advanced animation techniques. Built on Vite + React.",
+  "author": {
+    "name": "Aaron Friedman"
+  },
+  "keywords": ["web-design", "react", "dashboard", "portfolio", "animation", "design-system"]
+}
