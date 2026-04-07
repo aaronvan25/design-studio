@@ -12,7 +12,7 @@ Build a showcase site, portfolio, or landing page. Unlike dashboards (which prio
 
 ## Workflow
 
-Follow the same 6-step workflow as `/ds:dashboard` with these differences:
+Follow the same workflow as `/ds:dashboard` — including **Step 4b (Choose Build Location)** — with these differences:
 
 ### Step 2 Differences: Design Selection
 

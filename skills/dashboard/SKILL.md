@@ -68,9 +68,20 @@ Synthesize research into a concrete plan and present to user:
 
 Wait for user approval. Accept feedback and adjust before building.
 
+### Step 4b: Choose Build Location
+
+Use AskUserQuestion to ask where this design should be built. Present options:
+
+1. **Current directory** (`$CWD`) — build here if it's already a Vite + React project, or scaffold one
+2. **Design Workshop** (`~/Developer/Portfolio/Design Workshop`) — add as a new page to the portfolio design collection
+3. **New project** — ask for a path, create a new directory, and scaffold a fresh Vite + React project there
+4. **Custom path** — user provides an existing project directory
+
+After the user chooses, `cd` to the target directory for all subsequent build steps.
+
 ### Step 5: Build
 
-1. Check if user is in an existing Vite + React project (look for `package.json` with `vite` and `react`). If not, scaffold one.
+1. Check if the target directory is an existing Vite + React project (look for `package.json` with `vite` and `react`). If not, scaffold one.
 2. Install any needed dependencies (framer-motion, gsap, three, etc.) based on the animation plan.
 3. Create the page component as a single `.jsx` file.
 4. Follow the design philosophy from `design-philosophy` skill:
